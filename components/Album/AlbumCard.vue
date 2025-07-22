@@ -10,7 +10,7 @@
             class="absolute top-4 right-4 bg-white p-3 rounded-full shadow-sm"
           >
             <img
-              :src="isLiked ? '/public/assets/icons/baseicons/like_red.svg' : '/public/assets/icons/baseicons/like_black.svg'"
+              src="/public/assets/icons/baseicons/like_black.svg"
               class="w-5 h-5"
               alt="Like Icon"
             />
