@@ -9,7 +9,7 @@
     <GenreSection />
     <!-- <PicksSection /> -->
     <PicksMixtapeSection />
-    <PicksAlbumSection />
+    <!-- <PicksAlbumSection /> -->
     <FeaturesFeatureSection />
     <MagicSection />
     <!-- <TestimonialsTestimonialSection /> -->
