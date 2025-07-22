@@ -40,7 +40,7 @@
               SCROLL DOWN
             </span>
             <img 
-              src="/public/assets/icons/BaseIcons/mouse_line_white.svg" 
+              src="/assets/icons/BaseIcons/mouse_line_white.svg" 
               alt="Scroll Down Icon" 
               class="w-5 h-5"
             >

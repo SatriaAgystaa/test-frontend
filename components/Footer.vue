@@ -12,7 +12,7 @@
         </div>
 
         <img
-          src="/public/assets/icons/Footer/aura.svg"
+          src="/assets/icons/Footer/aura.svg"
           alt="Aura Background"
           class="absolute top-0 left-0 w-100 opacity-80 mix-blend-lighten pointer-events-none z-0"
         />
@@ -49,7 +49,7 @@
       <div class="flex items-center justify-between font-geist-regular z-10 mt-10">
         <!-- Left logo -->
         <div class="flex-1 flex justify-start">
-          <img src="/public/assets/icons/BaseIcons/logo.svg" alt="Kuping DJ Logo" class="h-12">
+          <img src="/assets/icons/BaseIcons/logo.svg" alt="Kuping DJ Logo" class="h-12">
         </div>
         
         <!-- Centered copyright -->
@@ -60,16 +60,16 @@
         <!-- Right social icons -->
         <div class="flex-1 flex justify-end space-x-10">
           <a href="#">
-            <img src="/public/assets/icons/Footer/facebook_line.svg" alt="Facebook" class="h-8">
+            <img src="/assets/icons/Footer/facebook_line.svg" alt="Facebook" class="h-8">
           </a>
           <a href="#">
-            <img src="/public/assets/icons/Footer/instagram_line.svg" alt="Instagram" class="h-8">
+            <img src="/assets/icons/Footer/instagram_line.svg" alt="Instagram" class="h-8">
           </a>
           <a href="#">
-            <img src="/public/assets/icons/Footer/linkedin_line.svg" alt="LinkedIn" class="h-8">
+            <img src="/assets/icons/Footer/linkedin_line.svg" alt="LinkedIn" class="h-8">
           </a>
           <a href="#">
-            <img src="/public/assets/icons/Footer/youtube_line.svg" alt="YouTube" class="h-8">
+            <img src="/assets/icons/Footer/youtube_line.svg" alt="YouTube" class="h-8">
           </a>
         </div>
       </div>

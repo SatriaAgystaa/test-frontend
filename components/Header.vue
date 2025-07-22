@@ -7,7 +7,7 @@
         <div class="flex items-center">
           <NuxtLink to="/" class="flex items-center">
             <img 
-              src="/public/assets/icons/BaseIcons/logo.svg" 
+              src="/assets/icons/BaseIcons/logo.svg" 
               alt="Kuping DJ Logo" 
               class="w-8 h-8 md:w-10 md:h-10"
             >
@@ -43,19 +43,19 @@
       <div class="flex items-center gap-2 sm:gap-3">
         <!-- Cart Icon -->
         <button aria-label="Shopping Cart" class="text-gray-600 hover:text-red-800 transition-colors duration-200 p-1.5 sm:p-2 hover:bg-gray-50 rounded-full">
-          <img src="/public/assets/icons/BaseIcons/cart_add.svg" alt="Cart" class="w-4 h-4 sm:w-5 sm:h-5">
+          <img src="/assets/icons/BaseIcons/cart_add.svg" alt="Cart" class="w-4 h-4 sm:w-5 sm:h-5">
         </button>
         
         <!-- Notification -->
         <button aria-label="Notifications" class="text-gray-600 hover:text-red-800 transition-colors duration-200 p-1.5 sm:p-2 hover:bg-gray-50 rounded-full relative">
-          <img src="/public/assets/icons/BaseIcons/notification.svg" alt="Notifications" class="w-4 h-4 sm:w-5 sm:h-5">
+          <img src="/assets/icons/BaseIcons/notification.svg" alt="Notifications" class="w-4 h-4 sm:w-5 sm:h-5">
         </button>
         
         <!-- Profile - Hidden on mobile -->
         <div class="hidden sm:relative sm:block">
           <button aria-label="User Profile" class="flex items-center gap-1 hover:bg-gray-50 rounded-full p-1 transition-colors duration-200">
-            <img src="/public/assets/icons/BaseIcons/profil.svg" alt="User Profile" class="w-7 h-7 md:w-8 md:h-8 rounded-full object-cover">
-            <img src="/public/assets/icons/BaseIcons/down_line.svg" alt="Dropdown" class="w-4 h-4 md:w-5 md:h-5 text-gray-500">
+            <img src="/assets/icons/BaseIcons/profil.svg" alt="User Profile" class="w-7 h-7 md:w-8 md:h-8 rounded-full object-cover">
+            <img src="/assets/icons/BaseIcons/down_line.svg" alt="Dropdown" class="w-4 h-4 md:w-5 md:h-5 text-gray-500">
           </button>
         </div>
 
