@@ -22,7 +22,7 @@ export const picksAlbumsData: PicksAlbum[] = [
   {
     id: 1,
     title: "Blues. PicksAlbum Exclusive On Kuping DJ",
-    coverImage: "/assets/icons/Picks/album1.svg",
+    coverImage: "/icons/picks/album1.svg",
     date: "02 July, 2025",
     price: 200000,
     tracks: [
@@ -32,8 +32,8 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "80 Mb",
         price: "Download",
-        icon: "/assets/icons/baseicons/download_white.svg",
-        headIcon: "/assets/icons/baseicons/file.svg",
+        icon: "/icons/baseicons/download_white.svg",
+        headIcon: "/icons/baseicons/file.svg",
         barIcon: ""
       },
       {
@@ -42,9 +42,9 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "5 Mb",
         price: "Rp. 10.000",
-        icon: "/assets/icons/baseicons/cart_white.svg",
-        headIcon: "/assets/icons/baseicons/play_black.svg",
-        barIcon: "/assets/icons/baseicons/bar.svg"
+        icon: "/icons/baseicons/cart_white.svg",
+        headIcon: "/icons/baseicons/play_black.svg",
+        barIcon: "/icons/baseicons/bar.svg"
       },
       {
         title: "Music 2",
@@ -52,9 +52,9 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025", 
         size: "5 Mb",
         price: "Rp. 10.000",
-        icon: "/assets/icons/baseicons/cart_white.svg",
-        headIcon: "/assets/icons/baseicons/play_black.svg",
-        barIcon: "/assets/icons/baseicons/bar.svg"
+        icon: "/icons/baseicons/cart_white.svg",
+        headIcon: "/icons/baseicons/play_black.svg",
+        barIcon: "/icons/baseicons/bar.svg"
       },
       {
         title: "Music 3",
@@ -62,9 +62,9 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "5 Mb", 
         price: "Rp. 10.000",
-        icon: "/assets/icons/baseicons/cart_white.svg",
-        headIcon: "/assets/icons/baseicons/play_black.svg",
-        barIcon: "/assets/icons/baseicons/bar.svg"
+        icon: "/icons/baseicons/cart_white.svg",
+        headIcon: "/icons/baseicons/play_black.svg",
+        barIcon: "/icons/baseicons/bar.svg"
       },
       {
         title: "Music 4",
@@ -72,9 +72,9 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "5 Mb",
         price: "Rp. 10.000",
-        icon: "/assets/icons/baseicons/cart_white.svg",
-        headIcon: "/assets/icons/baseicons/play_black.svg",
-        barIcon: "/assets/icons/baseicons/bar.svg"
+        icon: "/icons/baseicons/cart_white.svg",
+        headIcon: "/icons/baseicons/play_black.svg",
+        barIcon: "/icons/baseicons/bar.svg"
       },
       {
         title: "Music 5", 
@@ -82,16 +82,16 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "5 Mb",
         price: "Rp. 10.000",
-        icon: "/assets/icons/baseicons/cart_white.svg",
-        headIcon: "/assets/icons/baseicons/play_black.svg",
-        barIcon: "/assets/icons/baseicons/bar.svg"
+        icon: "/icons/baseicons/cart_white.svg",
+        headIcon: "/icons/baseicons/play_black.svg",
+        barIcon: "/icons/baseicons/bar.svg"
       }
     ]
   },
   {
     id: 2,
     title: "You And Me PicksAlbum Exclusive On Kuping DJ",
-    coverImage: "/assets/icons/Picks/album2.svg",
+    coverImage: "/icons/picks/album2.svg",
     date: "02 July, 2025", 
     price: 200000,
     tracks: [
@@ -101,8 +101,8 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "80 Mb", 
         price: "Download",
-        icon: "/assets/icons/baseicons/download_white.svg",
-        headIcon: "/assets/icons/baseicons/file.svg",
+        icon: "/icons/baseicons/download_white.svg",
+        headIcon: "/icons/baseicons/file.svg",
         barIcon: ""
       },
       {
@@ -111,9 +111,9 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "5 Mb",
         price: "Rp. 10.000",
-        icon: "/assets/icons/baseicons/cart_white.svg",
-        headIcon: "/assets/icons/baseicons/play_black.svg",
-        barIcon: "/assets/icons/baseicons/bar.svg"
+        icon: "/icons/baseicons/cart_white.svg",
+        headIcon: "/icons/baseicons/play_black.svg",
+        barIcon: "/icons/baseicons/bar.svg"
       },
       {
         title: "Music 2", 
@@ -121,9 +121,9 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "5 Mb",
         price: "Rp. 10.000",
-        icon: "/assets/icons/baseicons/cart_white.svg",
-        headIcon: "/assets/icons/baseicons/play_black.svg",
-        barIcon: "/assets/icons/baseicons/bar.svg"
+        icon: "/icons/baseicons/cart_white.svg",
+        headIcon: "/icons/baseicons/play_black.svg",
+        barIcon: "/icons/baseicons/bar.svg"
       },
       {
         title: "Music 3",
@@ -131,9 +131,9 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "5 Mb",
         price: "Rp. 10.000",
-        icon: "/assets/icons/baseicons/cart_white.svg",
-        headIcon: "/assets/icons/baseicons/play_black.svg",
-        barIcon: "/assets/icons/baseicons/bar.svg"
+        icon: "/icons/baseicons/cart_white.svg",
+        headIcon: "/icons/baseicons/play_black.svg",
+        barIcon: "/icons/baseicons/bar.svg"
       },
       {
         title: "Music 4",
@@ -141,9 +141,9 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "5 Mb",
         price: "Rp. 10.000",
-        icon: "/assets/icons/baseicons/cart_white.svg",
-        headIcon: "/assets/icons/baseicons/play_black.svg",
-        barIcon: "/assets/icons/baseicons/bar.svg"
+        icon: "/icons/baseicons/cart_white.svg",
+        headIcon: "/icons/baseicons/play_black.svg",
+        barIcon: "/icons/baseicons/bar.svg"
       },
       {
         title: "Music 5",
@@ -151,9 +151,9 @@ export const picksAlbumsData: PicksAlbum[] = [
         date: "03, Jul 2025",
         size: "5 Mb",
         price: "Rp. 10.000",
-        icon: "/assets/icons/baseicons/cart_white.svg",
-        headIcon: "/assets/icons/baseicons/play_black.svg",
-        barIcon: "/assets/icons/baseicons/bar.svg"
+        icon: "/icons/baseicons/cart_white.svg",
+        headIcon: "/icons/baseicons/play_black.svg",
+        barIcon: "/icons/baseicons/bar.svg"
       }
     ]
   }

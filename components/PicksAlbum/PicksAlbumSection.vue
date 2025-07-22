@@ -24,7 +24,7 @@
           class="bg-gray-600 text-white px-8 py-3 rounded hover:bg-gray-700 transition-colors inline-flex items-center gap-3 font-semibold mb-6"
         >
           LOAD MORE PICKSALBUMS
-          <img src="/assets/icons/baseicons/down_line.svg" class="w-5 h-5" alt="Chevron Down" />
+          <img src="/icons/baseicons/down_line.svg" class="w-5 h-5" alt="Chevron Down" />
         </button>
       </div>
     </div>

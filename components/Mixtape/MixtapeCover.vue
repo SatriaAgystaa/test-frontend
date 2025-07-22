@@ -3,7 +3,7 @@
     <!-- Vinyl Record - Background -->
     <div class="absolute inset-0 flex items-center justify-center z-10 right-[-20%] sm:right-[-25%] top-0">
       <img 
-        src="/assets/icons/BaseIcons/vinyl2.svg" 
+        src="/icons/baseicons/vinyl2.svg" 
         alt="Vinyl Record"
         class="w-full h-full max-w-[290px]"
       />
@@ -23,7 +23,7 @@
           @click="$emit('play')"
           class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30 transition-all duration-300 ease-out scale-100 hover:scale-90"
         >
-          <img src="/assets/icons/BaseIcons/play.svg" alt="Play" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
+          <img src="/icons/baseicons/play.svg" alt="Play" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
         </button>
       </div>
     </div>
@@ -34,7 +34,7 @@
       class="absolute top-3 right-10 w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 bg-white rounded-full flex items-center justify-center shadow-lg z-30 transition-all duration-300 ease-out scale-100 hover:scale-90"
       :class="{ 'text-red-500': isFavorited, 'text-gray-400': !isFavorited }"
     >
-      <img src="/assets/icons/BaseIcons/like_black.svg" alt="Like" class="w-4 h-4 sm:w-[18px] sm:h-[18px] md:w-5 md:h-5 transition-all duration-300" />
+      <img src="/icons/baseicons/like_black.svg" alt="Like" class="w-4 h-4 sm:w-[18px] sm:h-[18px] md:w-5 md:h-5 transition-all duration-300" />
     </button>
   </div>
 </template>

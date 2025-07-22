@@ -20,7 +20,7 @@
           :disabled="currentIndex === 0"
           :class="{ 'opacity-50 cursor-not-allowed': currentIndex === 0 }"
         >
-          <img src="/assets/icons/BaseIcons/arrow_right_line.svg" alt="Previous" class="w-7 h-7 rotate-180" />
+          <img src="/icons/baseicons/arrow_right_line.svg" alt="Previous" class="w-7 h-7 rotate-180" />
         </button>
 
         <button
@@ -29,7 +29,7 @@
           :disabled="currentIndex >= maxIndex"
           :class="{ 'opacity-50 cursor-not-allowed': currentIndex >= maxIndex }"
         >
-          <img src="/assets/icons/BaseIcons/arrow_left_line.svg" alt="Next" class="w-7 h-7" />
+          <img src="/icons/baseicons/arrow_left_line.svg" alt="Next" class="w-7 h-7" />
         </button>
 
         <!-- Cards Container -->

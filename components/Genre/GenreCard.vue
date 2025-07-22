@@ -9,7 +9,7 @@
     <div class="flex-1"></div>
 
     <img
-      src="/assets/icons/Genre/effect.svg"
+      src="/icons/genre/effect.svg"
       alt="Vinyl"
       class="absolute bottom-0 right-0 w-100 pointer-events-none z-0"
     />
@@ -18,7 +18,7 @@
     <div class="flex items-center font-glancyr-regular justify-between mt-6 z-10">
       <h3 class="text-3xl text-black tracking-wide">{{ genre.title }}</h3>
       <div class="p-2 transition-colors cursor-pointer">
-        <img src="/assets/icons/baseicons/arrow_black.svg" alt="Arrow icon" class="w-5 h-5">
+        <img src="/icons/baseicons/arrow_black.svg" alt="Arrow icon" class="w-5 h-5">
       </div>
     </div>
   </div>

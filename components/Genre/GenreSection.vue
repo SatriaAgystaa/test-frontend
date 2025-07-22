@@ -19,7 +19,7 @@
                 aria-label="Scroll left"
               >
                 <img 
-                  src="/assets/icons/BaseIcons/arrow_right_line.svg" 
+                  src="/icons/baseicons/arrow_right_line.svg" 
                   alt="Right arrow" 
                   class="w-5 h-5 md:w-7 md:h-7 transition-all duration-300 group-hover:-translate-x-1"
                 >
@@ -32,7 +32,7 @@
                 aria-label="Scroll right"
               >
                 <img 
-                  src="/assets/icons/BaseIcons/arrow_left_line.svg" 
+                  src="/icons/baseicons/arrow_left_line.svg" 
                   alt="Left arrow" 
                   class="w-5 h-5 md:w-7 md:h-7 transition-all duration-300 group-hover:translate-x-1"
                 >

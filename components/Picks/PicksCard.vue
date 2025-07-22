@@ -17,7 +17,7 @@
     <!-- Text Section -->
     <div class="relative aspect-[7/8] bg-red-700 p-8 text-white flex flex-col justify-between">
       <img
-        src="/assets/icons/BaseIcons/“.svg"
+        src="/icons/baseicons/koma.svg"
         alt="Quote icon"
         class="relative w-24 h-24"
         aria-hidden="true"

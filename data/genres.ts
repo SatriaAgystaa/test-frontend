@@ -8,21 +8,21 @@ export const genres: Genre[] = [
   {
     id: "edm",
     title: "EDM",
-    iconPath: "/assets/icons/Genre/edm.svg"
+    iconPath: "/icons/genre/edm.svg"
   },
   {
     id: "hiphop",
     title: "HIP-HOP",
-    iconPath: "/assets/icons/Genre/hiphop.svg"
+    iconPath: "/icons/genre/hiphop.svg"
   },
   {
     id: "rnb",
     title: "R&B",
-    iconPath: "/assets/icons/Genre/r&b.svg"
+    iconPath: "/icons/genre/r&b.svg"
   },
   {
     id: "pop",
     title: "POP",
-    iconPath: "/assets/icons/Genre/pop.svg"
+    iconPath: "/icons/genre/pop.svg"
   }
 ]

@@ -7,12 +7,12 @@
     <MixtapePopular />
     <section id="album"><AlbumSection /></section>
     <GenreSection />
-    <!-- <PicksSection /> -->
+    <PicksSection />
     <PicksMixtapeSection />
-    <!-- <PicksAlbumSection /> -->
+    <PicksAlbumSection />
     <FeaturesFeatureSection />
     <MagicSection />
-    <!-- <TestimonialsTestimonialSection /> -->
+    <TestimonialsTestimonialSection />
     <DomsBanner />
     <section id="about"><BannerFooter /></section>
   </div>

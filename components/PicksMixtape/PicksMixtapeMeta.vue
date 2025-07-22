@@ -16,7 +16,7 @@
     <!-- Date and BPM -->
     <div class="flex items-center justify-between text-xs md:text-sm text-gray-500 mb-3">
       <div class="flex items-center gap-1">
-        <img src="/assets/icons/BaseIcons/date.svg" alt="Date" 
+        <img src="/icons/baseicons/date.svg" alt="Date" 
              class="w-4 h-4 md:w-5 md:h-5 transition-transform duration-200 hover:scale-110" />
         <span>{{ date }}</span>
       </div>
@@ -30,21 +30,21 @@
     <div class="flex items-center gap-4 md:gap-6 mb-4 text-xs md:text-sm text-white">
       <!-- Downloads -->
       <div class="flex items-center gap-1">
-        <img src="/assets/icons/BaseIcons/download_white.svg" alt="Downloads" 
+        <img src="/icons/baseicons/download_white.svg" alt="Downloads" 
              class="w-4 h-4 md:w-5 md:h-5 transition-transform duration-200 hover:scale-110" />
         <span>{{ downloads }}</span>
       </div>
       
       <!-- Likes -->
       <div class="flex items-center gap-1">
-        <img src="/assets/icons/BaseIcons/like_white.svg" alt="Likes" 
+        <img src="/icons/baseicons/like_white.svg" alt="Likes" 
              class="w-3 h-3 md:w-4 md:h-4 transition-transform duration-200 hover:scale-110" />
         <span>{{ likes }}</span>
       </div>
       
       <!-- Rating -->
       <div class="flex items-center gap-1">
-        <img src="/assets/icons/BaseIcons/star_white.svg" alt="Rating" 
+        <img src="/icons/baseicons/star_white.svg" alt="Rating" 
              class="w-3 h-3 md:w-4 md:h-4 transition-transform duration-200 hover:scale-110" />
         <span>{{ rating }}</span>
       </div>
@@ -65,7 +65,7 @@
         class="bg-black border-2 border-white text-white p-1 md:p-2 
                 transition-all duration-200 hover:bg-white hover:text-black hover:scale-95 group"
         >
-        <img src="/assets/icons/BaseIcons/cart_white.svg" alt="Cart" 
+        <img src="/icons/baseicons/cart_white.svg" alt="Cart" 
             class="w-5 h-5 md:w-7 md:h-7 transition-all duration-200" />
       </button>
     </div>

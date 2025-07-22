@@ -36,7 +36,7 @@
                    transition-all duration-300 group-hover:bg-gray-900"
           >
             <img 
-              src="/assets/icons/BaseIcons/arrow_white.svg" 
+              src="/icons/baseicons/arrow_white.svg" 
               alt="arrow" 
               class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 
             />

@@ -2,7 +2,7 @@
   <div class="relative overflow-hidden bg-[#A10501] py-14 px-12">
     <!-- Background pattern -->
      <img
-            src="/assets/icons/Footer/wavy_lines.svg"
+            src="/icons/footer/wavy_lines.svg"
             alt="Vinyl"
             class="absolute bottom-0 right-0 w-[1400px] pointer-events-none z-0"
         />
@@ -39,7 +39,7 @@
                           transition-all duration-300 group-hover:bg-gray-900"
                   >
                     <img 
-                      src="/assets/icons/BaseIcons/arrow_white.svg" 
+                      src="/icons/baseicons/arrow_white.svg" 
                       alt="arrow" 
                       class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 
                     />
@@ -53,7 +53,7 @@
                 <a href="#" class="flex items-center" aria-label="Get it on Google Play">
                   <div class="flex flex-col items-start">
                     <img
-                      src="/assets/icons/Footer/play_store_download.svg"
+                      src="/icons/footer/play_store_download.svg"
                       alt="Google Play"
                       class="h-14"
                     />
@@ -63,7 +63,7 @@
                 <a href="#" class="flex items-center" aria-label="Download on the App Store">
                   <div class="flex flex-col items-start">
                     <img
-                      src="/assets/icons/Footer/app_store_download.svg"
+                      src="/icons/footer/app_store_download.svg"
                       alt="App Store"
                       class="h-14"
                     />
@@ -77,7 +77,7 @@
         <div class="flex-1 flex justify-end items-end md:relative">
           <!-- Mobile phone image with app screenshot -->
           <img
-            src="/assets/icons/Footer/mobile.svg"
+            src="/icons/footer/mobile.svg"
             alt="DOMS Station Mobile App"
             class="h-auto w-84 object-contain md:absolute top-[-54px]"
           />

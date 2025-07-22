@@ -11,7 +11,7 @@
             :disabled="currentIndex === 0"
             :class="{ 'opacity-50 cursor-not-allowed': currentIndex === 0 }"
           >
-            <img src="/assets/icons/BaseIcons/arrow_right_line.svg" alt="Previous" 
+            <img src="/icons/baseicons/arrow_right_line.svg" alt="Previous" 
                  class="w-5 h-5 md:w-7 md:h-7 transition-all duration-300 group-hover:-translate-x-1" />
           </button>
           <button 
@@ -20,7 +20,7 @@
             :disabled="currentIndex >= mixtapes.length - visibleCards"
             :class="{ 'opacity-50 cursor-not-allowed': currentIndex >= mixtapes.length - visibleCards }"
           >
-            <img src="/assets/icons/BaseIcons/arrow_left_line.svg" alt="Next" 
+            <img src="/icons/baseicons/arrow_left_line.svg" alt="Next" 
                  class="w-5 h-5 md:w-7 md:h-7 transition-all duration-300 group-hover:translate-x-1" />
           </button>
         </div>

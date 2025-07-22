@@ -11,13 +11,13 @@ export const testimonials: Testimonial[] = [
     role: 'DJ OXQ',
     message:
       'Kuping DJ adalah platform yang luar biasa! Saya menemukan banyak mixtape dan album yang sesuai dengan selera saya. Setiap kali saya mencari musik baru, saya selalu kembali ke sini. Terima kasih, Kuping DJ!',
-    image: '/assets/icons/testimoni/adhitama_adiarja.svg',
+    image: '/icons/testimoni/adhitama_adiarja.svg',
   },
   {
     name: 'BAGAS WIRANTO',
     role: 'DJ BAYKILA',
     message:
       'Sebagai DJ, saya sangat menghargai koleksi mixtape dan album yang ada di Kuping DJ. Ini adalah sumber inspirasi yang tak ternilai untuk set saya. Sangat direkomendasikan!',
-    image: '/assets/icons/testimoni/bagas_wiranto.svg',
+    image: '/icons/testimoni/bagas_wiranto.svg',
   },
 ];

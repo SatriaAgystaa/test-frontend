@@ -10,7 +10,7 @@
             class="absolute top-4 right-4 bg-white p-3 rounded-full shadow-sm"
           >
             <img
-              :src="isLiked ? '/assets/icons/baseicons/like_red.svg' : '/assets/icons/baseicons/like_black.svg'"
+              src="/icons/baseicons/like_black.svg"
               class="w-5 h-5"
               alt="Like Icon"
             />
@@ -19,7 +19,7 @@
 
         <h3 class="text-2xl font-geist-semibold text-gray-900 mb-2">{{ title }}</h3>
         <div class="flex items-center text-gray-500 text-xs mb-1">
-          <img src="/assets/icons/baseicons/date.svg" class="w-3 h-3 mr-1" alt="Date" />
+          <img src="/icons/baseicons/date.svg" class="w-3 h-3 mr-1" alt="Date" />
           <span class="font-geist-medium">{{ date }}</span>
         </div>
         <p class="font-geist-semibold text-black text-base mb-4">
@@ -30,7 +30,7 @@
             BUY BUNDLING
           </button>
           <button class="border-2 border-black text-black p-2 hover:bg-gray-50 ">
-            <img src="/assets/icons/baseicons/cart_black.svg" class="w-7 h-7" alt="Cart" />
+            <img src="/icons/baseicons/cart_black.svg" class="w-7 h-7" alt="Cart" />
           </button>
         </div>
       </div>

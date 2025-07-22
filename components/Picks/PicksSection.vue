@@ -3,7 +3,7 @@
     <!-- Background Effect - Fixed -->
     <div class="absolute inset-0 z-10 overflow-hidden pointer-events-none">
       <img
-        src="/assets/icons/Picks/effect.svg"
+        src="/icons/picks/effect.svg"
         alt="Aura Background"
         class="absolute bottom-0 left-0 w-[300px] max-w-[500px] h-auto opacity-80"
       />
@@ -40,7 +40,7 @@
               SCROLL DOWN
             </span>
             <img 
-              src="/assets/icons/BaseIcons/mouse_line_white.svg" 
+              src="/icons/baseicons/mouse_line_white.svg" 
               alt="Scroll Down Icon" 
               class="w-5 h-5"
             >

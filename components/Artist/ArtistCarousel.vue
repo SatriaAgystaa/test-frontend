@@ -23,7 +23,7 @@
           :disabled="currentIndex === 0"
           :class="{ 'opacity-50 cursor-not-allowed': currentIndex === 0 }"
         >
-          <img src="/assets/icons/BaseIcons/arrow_right_line.svg" alt="Previous" class="w-7 h-7 transition-transform duration-300" />
+          <img src="/icons/baseicons/arrow_right_line.svg" alt="Previous" class="w-7 h-7 transition-transform duration-300" />
         </button>
         
         <button 
@@ -35,7 +35,7 @@
           :disabled="currentIndex >= artists.length - visibleCards"
           :class="{ 'opacity-50 cursor-not-allowed': currentIndex >= artists.length - visibleCards }"
         >
-          <img src="/assets/icons/BaseIcons/arrow_left_line.svg" alt="Next" class="w-7 h-7 transition-transform duration-300" />
+          <img src="/icons/baseicons/arrow_left_line.svg" alt="Next" class="w-7 h-7 transition-transform duration-300" />
         </button>
 
         <!-- Cards Container -->
@@ -74,7 +74,7 @@
                    transition-all duration-300 group-hover:bg-gray-900"
           >
             <img 
-              src="/assets/icons/BaseIcons/arrow_white.svg" 
+              src="/icons/baseicons/arrow_white.svg" 
               alt="arrow" 
               class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 
             />

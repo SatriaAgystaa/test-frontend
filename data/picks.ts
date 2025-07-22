@@ -12,6 +12,6 @@ export const picks: Pick[] = [
     name: 'YUDY YANSYAH\n(DJ YUDY)',
     role: 'KUPING DJ OWNER',
     message: 'Gw kumpulin mixtape dan album yang cocok banget untuk dipakai di trend saat ini',
-    image: '/assets/icons/Picks/dj_yudy.jpg',
+    image: '/icons/picks/dj_yudy.jpg',
   },
 ];

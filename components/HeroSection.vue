@@ -2,17 +2,17 @@
   <main class="relative overflow-hidden">
     <!-- Background Images -->
     <img
-      src="/assets/icons/HeroIcons/effect.svg"
+      src="/icons/heroicons/effect.svg"
       alt="Aura Background"
       class="absolute bottom-0 left-0 w-[800px] opacity-80 mix-blend-lighten pointer-events-none z-0"
     />
     <img
-      src="/assets/icons/HeroIcons/line.svg"
+      src="/icons/heroicons/line.svg"
       alt="Vinyl"
       class="absolute bottom-0 right-0 w-[1400px] pointer-events-none z-0"
     />
     <img
-      src="/assets/icons/HeroIcons/vinyl.svg"
+      src="/icons/heroicons/vinyl.svg"
       alt="Vinyl"
       class="absolute bottom-[-40px] right-0 w-[650px] pointer-events-none z-0"
     />
@@ -54,7 +54,7 @@
               SCROLL DOWN
             </span>
             <img 
-              src="/assets/icons/BaseIcons/mouse_line.svg" 
+              src="/icons/baseicons/mouse_line.svg" 
               alt="Scroll Down Icon" 
               class="w-5 h-5"
             >
