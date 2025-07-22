@@ -12,8 +12,8 @@
     <PicksAlbumSection />
     <FeaturesFeatureSection />
     <MagicSection />
-    <TestimonialsTestimonialSection />
+    <section id="about"><TestimonialsTestimonialSection /></section>
     <DomsBanner />
-    <section id="about"><BannerFooter /></section>
+    <BannerFooter />
   </div>
 </template>
