@@ -5,7 +5,7 @@
       <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-3 sm:mb-4 md:mb-0 font-glancyr-medium">
         MOST POPULAR MIXTAPE
       </h2>
-      <div class="flex mt-3 sm:mt-4 md:mt-0 gap-2 sm:gap-3">
+      <div class="flex mt-3 sm:mt-4 md:mt-0">
         <button
           v-for="btn in filters"
           :key="btn"
