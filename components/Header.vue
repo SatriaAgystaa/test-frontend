@@ -74,7 +74,7 @@
     
     <!-- Mobile Navigation -->
     <nav 
-      class="md:hidden bg-white border-t border-gray-100 px-4 sm:px-6 py-3 transition-all duration-300 overflow-hidden"
+      class="md:hidden bg-white border-t border-gray-100 px-3 transition-all duration-300 overflow-hidden"
       :class="{'max-h-0 py-0 border-t-0': !isMobileMenuOpen, 'max-h-96': isMobileMenuOpen}"
     >
       <div class="flex flex-col gap-3 sm:gap-4">

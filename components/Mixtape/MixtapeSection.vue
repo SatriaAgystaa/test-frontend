@@ -1,27 +1,27 @@
 <template>
   <div class="mixtape-section">
-    <div class="container mx-auto px-12 py-14 relative bg-white">
+    <div class="container mx-auto px-6 sm:px-8 lg:px-12 py-8 sm:py-10 lg:py-14 relative bg-white">
       <!-- Section Header -->
-      <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 md:mb-12">
-        <h2 class="text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-0 font-glancyr-medium">{{ title }}</h2>
-        <div class="flex gap-2 md:gap-4 self-end md:self-auto">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 sm:mb-8 md:mb-12">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-3 sm:mb-4 md:mb-0 font-glancyr-medium">{{ title }}</h2>
+        <div class="flex gap-2 sm:gap-3 md:gap-4 self-end md:self-auto">
           <button 
             @click="slideLeft" 
-            class="w-10 h-10 md:w-14 md:h-14 rounded-full bg-black flex items-center justify-center hover:bg-black/90 transition-all duration-300 group"
+            class="w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 rounded-full bg-black flex items-center justify-center hover:bg-black/90 transition-all duration-300 group"
             :disabled="currentIndex === 0"
             :class="{ 'opacity-50 cursor-not-allowed': currentIndex === 0 }"
           >
             <img src="/icons/baseicons/arrow_right_line.svg" alt="Previous" 
-                 class="w-5 h-5 md:w-7 md:h-7 transition-all duration-300 group-hover:-translate-x-1" />
+                 class="w-4 h-4 sm:w-5 sm:h-5 md:w-7 md:h-7 transition-all duration-300 group-hover:-translate-x-1" />
           </button>
           <button 
             @click="slideRight" 
-            class="w-10 h-10 md:w-14 md:h-14 rounded-full bg-black flex items-center justify-center hover:bg-black/90 transition-all duration-300 group"
+            class="w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 rounded-full bg-black flex items-center justify-center hover:bg-black/90 transition-all duration-300 group"
             :disabled="currentIndex >= mixtapes.length - visibleCards"
             :class="{ 'opacity-50 cursor-not-allowed': currentIndex >= mixtapes.length - visibleCards }"
           >
             <img src="/icons/baseicons/arrow_left_line.svg" alt="Next" 
-                 class="w-5 h-5 md:w-7 md:h-7 transition-all duration-300 group-hover:translate-x-1" />
+                 class="w-4 h-4 sm:w-5 sm:h-5 md:w-7 md:h-7 transition-all duration-300 group-hover:translate-x-1" />
           </button>
         </div>
       </div>
@@ -29,7 +29,7 @@
       <!-- Mixtape Cards -->
       <div class="relative overflow-hidden">
         <div 
-          class="flex transition-transform duration-300 ease-out gap-4 md:gap-7"
+          class="flex transition-transform duration-300 ease-out gap-3 sm:gap-4 md:gap-7"
           :style="{ transform: `translateX(-${currentIndex * (100 / visibleCards)}%)` }"
         >
           <MixtapeCard
@@ -119,14 +119,38 @@ button:not(:disabled):hover {
   transform: scale(1.05);
 }
 
+/* Responsive adjustments */
 @media (max-width: 640px) {
   .mixtape-section {
     padding-left: 1rem;
     padding-right: 1rem;
   }
   
-  .flex.gap-4 {
-    gap: 1rem;
+  .flex.gap-3 {
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  button {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  img[alt="Previous"],
+  img[alt="Next"] {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
 </style>
