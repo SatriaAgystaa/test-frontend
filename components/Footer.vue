@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-white text-black z-10">
-    <div class="container mx-auto px-12 py-8 relative z-10">
+    <div class="container mx-auto py-8 sm:py-10 lg:py-14 px-4 sm:px-6 md:px-10 lg:px-12 relative z-10">
       <div class="flex flex-col md:flex-row justify-between gap-8 mt-6">
         <!-- Left section - Main heading -->
         <div class="space-y-6 md:w-1/2 z-10">
