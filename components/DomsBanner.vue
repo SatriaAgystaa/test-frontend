@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden bg-[#A10501] py-14 px-12">
+  <div class="relative overflow-hidden bg-[#A10501] py-8 sm:py-10 lg:py-14 px-4 sm:px-6 md:px-10 lg:px-12">
     <!-- Background pattern -->
      <img
             src="/icons/footer/wavy_lines.svg"
