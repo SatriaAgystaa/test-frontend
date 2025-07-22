@@ -1,6 +1,6 @@
 <template>
   <main class="album-section relative overflow-hidden">
-    <div class="container mx-auto px-12 py-14 relative">
+    <div class="container mx-auto py-8 sm:py-10 lg:py-14 px-4 sm:px-6 md:px-10 lg:px-12 relative">
       <!-- Section Header -->
       <h2 class="text-4xl md:text-5xl font-glancyr-medium thacking-wide mb-12">NEW ARRIVAL ALBUM</h2>
       
